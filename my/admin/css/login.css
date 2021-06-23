@@ -1,0 +1,71 @@
+body,html{
+	margin: 0;
+	height: 100%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+     }
+
+/*login and register */
+.loginbg{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/b5.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	}
+
+.logincontainer{
+	position: relative;
+	width: 380px;
+	height: 400px;
+	margin: 6% auto;
+	background-color: white;
+	padding: 5px;
+	overflow: hidden;
+}
+
+
+.logininput-grp{
+	top: 150px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+.logininput-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top:0;
+	border-bottom:1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn{
+	margin-top:30px;
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	background: linear-gradient(to right, #ff105f,#ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+
+span{
+	color: #777;
+	font-size: 15px;
+	bottom: 64px;
+	position: absolute;
+}
+
+#login{
+	left: 50px;
+}
+
